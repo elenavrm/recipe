@@ -1,0 +1,82 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.App {
+  background: rgba(255, 255, 255, 0.79);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  width: 100%;
+  margin-right: 60px;
+  padding: 12px 15px;
+  background-color: transparent;
+  box-shadow: inset 0px 0px 0px 2px #008001;
+}
+
+input {
+  color:#008001;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  padding: 15px;
+  background-color: #008001;
+  border: none;
+  margin-top: 10px;
+  color: #fefefe;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color:#9fc583;
+  color: #fefefe;
+  border: 2px solid #008001;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  background-color:#9fc583;
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+h1, h2, ul, p, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.icon {
+  width: 40px;
+}
+
+h1, h3 {
+  color: #cf4644
+}
+
+.header {
+  font-size: 20px;
+  color:#008001;
+  text-transform: capitalize;
+}
+
+
+
+
