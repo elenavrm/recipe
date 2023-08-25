@@ -12,7 +12,7 @@ function MyFoodSearch({label, image, calories, ingredients, cuisine, meal}) {
         </div>
 
         <div className="container">
-        <img src={image}/>
+        <img src={image} alt='food'/>
         </div>
 
         <ul className="container list">
